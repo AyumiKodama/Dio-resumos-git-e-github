@@ -18,3 +18,6 @@
 
 - ```Cd <nome pasta>``` entra na pasta
 - ```Cd .. Ou cd ../.. ```(Para voltar uma pasta)
+
+## 🗑 Desfazendo alterações no Repósitorio local
+- ```git restore <nome arquivo>```
