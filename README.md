@@ -10,6 +10,7 @@
 ## ⌨ Comandos
 
 - ```Git add .``` (adiciona todos os arquivos que estão disponíveis para mandar para a área de standing)
+- ```git status``` 
 
 - ```Git checkout <nome branch>``` (para alternar a branch)
 
