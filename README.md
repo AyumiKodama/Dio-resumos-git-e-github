@@ -20,4 +20,4 @@
 - ```Cd .. Ou cd ../.. ```(Para voltar uma pasta)
 
 ## 🗑 Desfazendo alterações no Repósitorio local
-- ```git restore <nome arquivo>```
+- ```git restore <nome arquivo>``` (antes de fazer o commit)
