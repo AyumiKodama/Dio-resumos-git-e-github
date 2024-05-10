@@ -10,7 +10,6 @@
 ## ⌨ Comandos
 
 - ```Git add .``` (adiciona todos os arquivos que estão disponíveis para mandar para a área de standing)
-- ```git status``` 
 
 - ```Git checkout <nome branch>``` (para alternar a branch)
 
@@ -20,4 +19,11 @@
 - ```Cd .. Ou cd ../.. ```(Para voltar uma pasta)
 
 ## 🗑 Desfazendo alterações no Repósitorio local
-- ```git restore <nome arquivo>``` (antes de fazer o commit)
+| Comando | Descrição |
+|---------|-----------|
+| ```git restore <nome arquivo>```| restaura todas as modificações.|
+| ```git commit -ammend -m "nova mensagem"``` |para alterar nome do ultimo commit.|
+| ```git reset --soft <hash do commit>``` | volta para o commit, com os arquivos na area de preparação.|
+|```git reset --mixed <hash do commit>```| volta para o commit, porem os arquivos não estão rastreados.|
+|```git reset --hard <hash do commit>```| volta para o commit, sem senhum arquivo.|
+|```git reset <nome arquivo>```| coloca o arquivo como não rastreado
