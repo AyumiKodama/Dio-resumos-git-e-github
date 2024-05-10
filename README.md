@@ -15,7 +15,7 @@
 
 - ```Mkdir <nome diretório>``` (cria um diretorio)
 
-- ```Cd <nome pasta>``` entra na pasta
+- ```Cd <nome pasta>``` (entra na pasta)
 - ```Cd .. Ou cd ../.. ```(Para voltar uma pasta)
 
 ## 🗑 Desfazendo alterações no Repósitorio local
