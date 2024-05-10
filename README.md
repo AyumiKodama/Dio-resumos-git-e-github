@@ -24,6 +24,6 @@
 | ```git restore <nome arquivo>```| restaura todas as modificações.|
 | ```git commit -ammend -m "nova mensagem"``` |para alterar nome do ultimo commit.|
 | ```git reset --soft <hash do commit>``` | volta para o commit, com os arquivos na area de preparação.|
-|```git reset --mixed <hash do commit>```| volta para o commit, porem os arquivos não estão rastreados.|
+|```git reset --mixed <hash do commit>```| volta para o commit, porém os arquivos não estão rastreados.|
 |```git reset --hard <hash do commit>```| volta para o commit, sem senhum arquivo.|
 |```git reset <nome arquivo>```| coloca o arquivo como não rastreado.
