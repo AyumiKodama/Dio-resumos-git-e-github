@@ -28,13 +28,14 @@
 |```git reset --hard <hash do commit>```| volta para o commit, sem senhum arquivo.|
 |```git reset <nome arquivo>```| coloca o arquivo como não rastreado.
 
-## 🔗 Branchs
+## 🔗 Trabalhando com branchs
 |Comando | Descrição |
 |--------|-----------|
 |git checkout -b <nome branch nova>| cria uma nova branch e entra nela.|
 |git branch -v| lista o ultimo commit de cada branch.|
 |git merge <nome branch>| mescla o <nome branch> com a branch atual.|
 |git branch -d <nome>| deleta a brach.|
-|git fetch origin main| baixa as alterações, porem n mescla na branch.|
+|git fetch origin main| baixa as alterações, porem não mescla na branch.|
+|git clone url --branch <nome branch> --single branch| clona somente a branch desejada.
 
 
